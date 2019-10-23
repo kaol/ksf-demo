@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f07e26;
+    font-family: 'Roboto', sans-serif;
+}
+
+body > div {
+    width: 50em;
+    background: white;
+    color: #333;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+h1, h2 {
+    font-family: 'Duplex Serif Web', serif;
+    font-weight: 700;
+    margin-top: 0.9375rem;
+    margin-bottom: 10px;
+    letter-spacing: -0.015em;
+}
+
+h3 {
+    font-family: 'Duplex Serif Web', serif;
+    font-weight: 700;
+}
+
+span.input {
+    display: flex;
+    align-items: center;
+}
+
+span.input > label {
+    flex: 1 1 auto;
+    width: 5em;
+}
+
+span.input > input {
+    flex: 3 1 auto;
+    width: 10em;
+}
+
+#error {
+    padding-top: 1em;
+    color: #e6492e;
+}
